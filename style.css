@@ -8,17 +8,19 @@ h1 {
     
 }
 
-li {
-    border-radius: 50px; 
-    padding: 50px;
+img {
+    border-radius: 10px; 
+    padding: 20px;
     width: 223px; 
     height: 311px;
     margin: 0 auto;
     transition: .1s ease-in-out;    
-    color: peachpuff;
+    list-style: none;
+    vertical-align: middle;
+
 }
 
-li:hover {
+img:hover {
     transform: scale(1.2);
     transform: .2s ease-in-out;
 }
